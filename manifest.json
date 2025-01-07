@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Evaluation Form Automator",
+  "version": "1.0",
+  "description": "Automates course, teacher, and online learning evaluation forms.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://portals.au.edu.pk/*"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

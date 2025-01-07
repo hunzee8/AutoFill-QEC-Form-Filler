@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evaluation Automator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+    .button {
+      display: block;
+      margin: 10px 0;
+      padding: 10px 20px;
+      background: #086ed0;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-align: center;
+    }
+    .button:hover {
+      background: #0656a8;
+    }
+    select {
+      margin-bottom: 10px;
+      padding: 5px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Evaluation Automator</h3>
+  <label for="grade">Select Grade:</label>
+  <select id="grade">
+    <option value="1">A</option>
+    <option value="2" selected>B</option>
+    <option value="3">C</option>
+    <option value="4">D</option>
+  </select>
+  <button class="button" id="courseEvaluation">Course Evaluation</button>
+  <button class="button" id="teacherEvaluation">Teacher Evaluation</button>
+  <button class="button" id="onlineLearningEvaluation">Online Learning Feedback</button>
+  <script src="popup.js"></script>
+</body>
+</html>
