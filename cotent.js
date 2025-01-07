@@ -4,7 +4,7 @@
 //		hunzlaarshad82@gmail.com
 //		231356@students.au.edu.pk
 document.addEventListener("DOMContentLoaded", function () {
-    // Select the dropdown and iterate through subjects
+
     const dropdown = document.querySelector("select"); // Adjust the selector as needed
     if (!dropdown) return alert("Subject dropdown not found!");
 
