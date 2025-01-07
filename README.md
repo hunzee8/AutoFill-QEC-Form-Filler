@@ -1,5 +1,4 @@
 # AutoFill-QEC-Form-Filler
-# AutoFill-QEC-Form-Filler
 
 A Chrome extension that automates filling out Course, Teacher, and Online Learning evaluation forms for QEC systems. Users can select the grade they want to assign and let the extension handle the rest.
 
@@ -39,16 +38,17 @@ Click on the Load unpacked button.
 Select the folder where you cloned this repository.
 The extension will now appear in your Chrome extensions list.
 ### 4. How to Use the Extension
-Navigate to the QEC evaluation form page.
-Click on the extension icon in the toolbar.
-Select the grade (A, B, C, or D) using the dropdown menu.
-Click on one of the buttons:
-Course Evaluation: Fills and submits the Course Evaluation form.
-Teacher Evaluation: Fills and submits the Teacher Evaluation form.
-Online Learning Feedback: Fills and submits the Online Learning Feedback form.
-The extension will automatically complete the form and submit it.
-Commands and Scripts
 
+- Navigate to the QEC evaluation form page.  
+- Click on the extension icon in the browser toolbar.  
+- Select the grade (`A`, `B`, `C`, or `D`) using the dropdown menu.  
+- Click on one of the following buttons:  
+  - **Course Evaluation**: Fills and submits the Course Evaluation form.  
+  - **Teacher Evaluation**: Fills and submits the Teacher Evaluation form.  
+  - **Online Learning Feedback**: Fills and submits the Online Learning Feedback form.  
+- The extension will automatically complete the form and submit it.
+
+---
 ### Troubleshooting
 Error: "Could not load manifest"
 Ensure that all required files (manifest.json, popup.html, popup.js, etc.) are in the root directory of the cloned repository.
@@ -62,6 +62,9 @@ icon128.png: 128x128 pixels
 
 Place them in the root directory.
 
+---
 ### Contributing
 Contributions are welcome! Feel free to submit a pull request or open an issue for any improvements or bugs.
 
+---
+### By HUNZ33
