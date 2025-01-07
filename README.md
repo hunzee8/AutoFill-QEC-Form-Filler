@@ -49,20 +49,7 @@ The extension will now appear in your Chrome extensions list.
 - The extension will automatically complete the form and submit it.
 
 ---
-### Troubleshooting
-Error: "Could not load manifest"
-Ensure that all required files (manifest.json, popup.html, popup.js, etc.) are in the root directory of the cloned repository.
 
-Error: "icon16.png not found"
-If the icons are missing, download or create placeholder icons with the following sizes:
-
-icon16.png: 16x16 pixels
-icon48.png: 48x48 pixels
-icon128.png: 128x128 pixels
-
-Place them in the root directory.
-
----
 ### Contributing
 Contributions are welcome! Feel free to submit a pull request or open an issue for any improvements or bugs.
 
