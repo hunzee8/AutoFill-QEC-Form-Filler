@@ -1,3 +1,9 @@
+
+// Made by Hunzla Arshad
+// Contact Me:
+//		hunzlaarshad82@gmail.com
+//		231356@students.au.edu.pk
+
 document.getElementById("courseEvaluation").addEventListener("click", () => {
   const grade = document.getElementById("grade").value;
   sendMessageToContentScript("CourseEvaluation", grade);
@@ -24,7 +30,7 @@ function sendMessageToContentScript(action, grade) {
 }
 
 function injectEvaluationScript(action, grade) {
-  const option = parseInt(grade); // Convert grade to number
+  const option = parseInt(grade);
   if (action === "CourseEvaluation") {
     CourseEvaluation(option);
   } else if (action === "TeacherEvaluation") {
