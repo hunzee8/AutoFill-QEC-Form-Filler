@@ -5,7 +5,7 @@
 //		231356@students.au.edu.pk
 document.addEventListener("DOMContentLoaded", function () {
 
-    const dropdown = document.querySelector("select"); // Adjust the selector as needed
+    const dropdown = document.querySelector("select"); 
     if (!dropdown) return alert("Subject dropdown not found!");
 
     const options = dropdown.options;
@@ -13,19 +13,19 @@ document.addEventListener("DOMContentLoaded", function () {
     const fillAndSubmit = async () => {
         for (let i = 1; i < options.length; i++) {
             dropdown.selectedIndex = i;
-            dropdown.dispatchEvent(new Event("change")); // Trigger the change event
+            dropdown.dispatchEvent(new Event("change")); 
 
             await new Promise(resolve => setTimeout(resolve, 2000));
 
             const radioButtons = document.querySelectorAll("input[type='radio'][value='B']");
             radioButtons.forEach(rb => {
-                if (rb.offsetParent !== null) rb.click(); // Ensure it's visible
+                if (rb.offsetParent !== null) rb.click(); 
             });
 
-            const submitButton = document.querySelector("button"); // Adjust selector if needed
+            const submitButton = document.querySelector("button"); 
             if (submitButton) {
                 submitButton.click();
-                await new Promise(resolve => setTimeout(resolve, 3000)); // Wait for submission
+                await new Promise(resolve => setTimeout(resolve, 3000)); 
             }
         }
         alert("All subjects graded with 'B' and submitted!");
