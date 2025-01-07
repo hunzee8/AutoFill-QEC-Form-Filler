@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Evaluation Form Automator",
+  "name": "QEC Form Filler",
   "version": "1.0",
   "description": "Automates course, teacher, and online learning evaluation forms.",
   "permissions": ["activeTab", "scripting"],
